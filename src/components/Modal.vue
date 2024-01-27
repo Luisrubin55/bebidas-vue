@@ -71,13 +71,13 @@ const formatearIngredientes = () => {
                             <div class="mt-5 sm:mt-6 flex justify-between gap-4">
                                 <button
                                     type="button"
-                                    class="w-full rounded bg-gray-600 p-3 font-bold uppercase text-white shadow hover:bg-gray-500"
+                                    class="w-full rounded bg-rose-800 p-3 font-bold uppercase text-white shadow hover:bg-rose-500"
                                     @click="modal.handleClickModal()"
                                 >
                                     Cerrar
                                 </button>
                                 <button 
-                                    class="w-full rounded bg-orange-600 p-3 font-bold uppercase text-white shadow hover:bg-orange-500"
+                                    class="w-full rounded bg-amber-700 p-3 font-bold uppercase text-white shadow hover:bg-amber-600"
                                     @click="favoritos.handleClickFavorito"
                                 >
                                     {{ modal.textoBoton }}

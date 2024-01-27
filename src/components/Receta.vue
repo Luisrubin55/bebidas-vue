@@ -25,7 +25,7 @@ defineProps({
             <h2 class="text-1xl truncate font-extrabold">{{ receta.strDrink }}</h2>
             <button
                 type="button"
-                class="bg-orange-400 hover:bg-orange-500 mt-5 w-full p-3 font-bold text-white text-lg"
+                class="bg-orange-500 hover:bg-orange-600 mt-5 w-full p-3 font-bold text-white text-lg"
                 @click="bebidas.seleccionarBebida(receta.idDrink)"
             >
                 Ver Receta
